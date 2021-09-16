@@ -1,8 +1,8 @@
-package com.transempiric.simpleEncryptor.property;
+package com.transempiric.Encryptor.property;
 
 /**
  */
-public enum SimpleEncryptorInterceptionMode {
+public enum EncryptorInterceptionMode {
     WRAPPER,
     PROXY
 }
