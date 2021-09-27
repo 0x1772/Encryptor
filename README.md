@@ -1,9 +1,9 @@
 ## Encryptor
 Spring Framework encryption extension.
-SimpleEncryptor supports property encryption via TextEncryptor, with optional use of [spring-security-rsa](https://github.com/dsyer/spring-security-rsa) RSA (PUBLIC and PRIVATE keys).
-RSA (PUBLIC and PRIVATE keys) can be deleted or cleared after TextEncryptor instantiation using the SimpleEncryptorFactoryBean.
+Encryptor supports property encryption via TextEncryptor, with optional use of [spring-security-rsa](https://github.com/dsyer/spring-security-rsa) RSA (PUBLIC and PRIVATE keys).
+RSA (PUBLIC and PRIVATE keys) can be deleted or cleared after TextEncryptor instantiation using the EncryptorFactoryBean.
 
-SimpleEncryptor provides encryption support for property sources in Spring Boot Applications and plain old Spring.<br/>
+Encryptor provides encryption support for property sources in Spring Boot Applications and plain old Spring.<br/>
 
 ## How to get use.
 1.  Add the encryptor dependency to your project :
